@@ -14,10 +14,10 @@ async function searchme() {
         <h4>Sky condition: ${data.weather[0].description}</h4>
         </div>
         <div class="maincontainerlowerlowerfirst">
-        <h4>Temperature : ${data.main.temp}</h4>
+        <h4>Temperature : ${data.main.temp} C</h4>
         </div>
         <div class="maincontainerlowerlower">
-        <h4>Wind Speed: ${data.wind.speed}</h4>
+        <h4>Wind Speed: ${data.wind.speed} km/h</h4>
         </div>
         <div class="maincontainerlowerlower">
         </div>
